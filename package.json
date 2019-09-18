@@ -12,6 +12,10 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalmanMehmood/react-multiple-icons"
+  },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^7.1.4",

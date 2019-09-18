@@ -1,6 +1,6 @@
-<img src="https://img.techpowerup.org/190918/react-icon-logo.png" width="120" alt="React Icons">
+<img src="https://img.techpowerup.org/190918/react-icon-logo.png" width="120" alt="react-multiple-icons">
 
-# [React Icons](https://salmanmehmood.github.io/ReactIconsDocumentation/)
+# [react-multiple-icons](https://salmanmehmood.github.io/ReactIconsDocumentation/)
 
 [![version](https://img.shields.io/badge/version-1.0.0-gree.svg)](https://www.npmjs.com/package/react-multiple-icons)
 

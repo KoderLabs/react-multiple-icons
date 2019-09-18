@@ -1,4 +1,4 @@
-<img src="https://s3.amazonaws.com/data.development.momentpin.com/2019/9/18/156879541505454-89e682e0-d9ee-11e9-b624-4529e9fa7198.png" width="120" alt="React Icons">
+<img src="https://img.techpowerup.org/190918/react-icon-logo.png" width="120" alt="React Icons">
 
 # [React Icons](https://salmanmehmood.github.io/ReactIconsDocumentation/)
 

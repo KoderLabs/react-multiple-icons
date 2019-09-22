@@ -13,6 +13,50 @@ which utilizes ES6 imports that allows you to include only the icons that your p
 npm install react-multiple-icons --save
 ```
 
+## Configure CDN(s)
+
+Add CDN link(s) of desired icons system in your projects public/index.html.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ...
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome link end -->
+    <!-- material design link -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- material design link end -->
+
+    <!-- feather icons -->
+    <link
+      href="assets/vendors/feather-icons/feather.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- feather link end -->
+    <!-- Linea Icons -->
+    <link
+      href="assets/vendors/linea-icons/styles.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Linea Icons link end  -->
+    <!-- IonIcons link -->
+    <link
+      href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- IonIcons link end  -->
+  </head>
+```
+
 ## Basic Usage
 
 ```jsx

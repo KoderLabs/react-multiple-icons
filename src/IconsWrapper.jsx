@@ -1,12 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-
-const propTypes = {
-  iconName: PropTypes.string.isRequired,
-  className: PropTypes.string,
-  iconStyle: PropTypes.string
-};
+import { Helmet } from "react-helmet";
 
 class IconsWrapper extends React.Component {
   render() {
@@ -45,36 +38,4 @@ class IconsWrapper extends React.Component {
   }
 }
 
-const ReactIcons = ({ iconName, className, iconStyle }) => {
-  let iconClass = iconName.split(/[\s-]/).shift();
-  switch (iconClass) {
-    case "fa":
-    case "fas":
-    case "far":
-    case "fab":
-    case "lba":
-    case "linea":
-    case "ion":
-      return (
-        <IconsWrapper>
-          <span className={className}>
-            <i className={`${iconName} ${iconStyle}`} />
-          </span>
-        </IconsWrapper>
-      );
-    case "material":
-      return (
-        <IconsWrapper>
-          <span>
-            <i className={`${iconName} ${iconStyle}`}>{className}</i>
-          </span>
-        </IconsWrapper>
-      );
-    default:
-      return <div>Invalid Icon class</div>;
-  }
-};
-
-ReactIcons.propTypes = propTypes;
-
-export default ReactIcons;
+export default IconsWrapper;

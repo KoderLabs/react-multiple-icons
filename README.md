@@ -66,8 +66,6 @@ _NOTE_: each Icon package has it's own subfolder under `react-icons` you import 
 
 ### Linea Basic Icons
 
-### Feather Icons
-
 You can add more icons by submitting pull requests or creating issues.
 
 | key       | default   | memo                         |
